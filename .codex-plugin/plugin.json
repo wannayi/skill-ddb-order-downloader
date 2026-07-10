@@ -1,0 +1,23 @@
+{
+  "name": "ddb-order-downloader",
+  "version": "0.1.0",
+  "description": "Process Deutsche Digitale Bibliothek newspaper orders into TXT, CSV, JSON, and ZIP deliverables.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DDB Order Downloader",
+    "shortDescription": "Download and package DDB newspaper OCR orders.",
+    "longDescription": "Process Deutsche Digitale Bibliothek newspaper search URLs and Xianyu-style customer requests into page-level OCR text, metadata CSV, snippets CSV, raw JSON, README, and ZIP deliverables while keeping Xianyu manual.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Productivity",
+      "Research"
+    ],
+    "defaultPrompt": [
+      "Process this DDB newspaper search URL into TXT/CSV/ZIP deliverables."
+    ]
+  }
+}

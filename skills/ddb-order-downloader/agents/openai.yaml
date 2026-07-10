@@ -1,0 +1,4 @@
+interface:
+  display_name: "DDB Order Downloader"
+  short_description: "Process DDB newspaper download orders"
+  default_prompt: "Process this DDB newspaper order with the local downloader."
